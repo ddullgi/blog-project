@@ -1,0 +1,24 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
+	"organizeImports": { "enabled": true },
+	"linter": {
+		"enabled": true,
+		"rules": { "recommended": true }
+	},
+	"files": {
+		"ignore": [
+			"**/.gitignore",
+			"**/.yarn/*",
+			"**/.pnp.*",
+			"**/.turbo/*",
+			"**/build/*",
+			"**/coverage/*",
+			"**/dist/*",
+			"**/.next/*",
+			"**/node_modules/*",
+			"*storybook.log",
+			"**/storybook-static/*",
+			"**/.contentlayer/*"
+		]
+	}
+}
